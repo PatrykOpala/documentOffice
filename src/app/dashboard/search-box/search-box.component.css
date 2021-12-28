@@ -1,0 +1,56 @@
+.searchBox{
+    width: 500px;
+    height: 45px;
+    /* border: 2px solid #000; */
+    margin-left: 30px;
+    border-radius: 6px;
+    background:rgba(230, 230, 230, 0.685);
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+/* offsetWidth - 38 */
+/* offsetHeight - 38 */
+/* #3c3c3c */
+
+.searchBox > button{
+    border-radius: 50px;
+    margin-left: 3px;
+    width: 32px;
+    height: 32px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.searchBox > button:not(:first-child){
+    border-radius: 50px;
+    margin-right: 3px;
+    width: 32px;
+    height: 32px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBox > button:hover{
+    background: rgba(70, 70, 70, .1);
+    cursor: pointer;
+}
+
+.searchBox > .szukajka{
+    font-size: 1rem;
+    width: 400px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
