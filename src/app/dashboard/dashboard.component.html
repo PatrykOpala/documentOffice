@@ -41,23 +41,14 @@
     </div>
     <div class="lastDocs">
         <span>Ostatnie dokumenty</span>
-        <button>Należące do kogokolwiek</button>
-        <!--Należące do mnie-->
-        <!--Nienależące do mnie-->
+        <app-choose-field></app-choose-field>
         <div class="buttonOp">
             <button><img src="../../assets/list-icon-min.svg" alt="list_icon"></button>
             <button><img src="../../assets/sort-icon-min.svg" alt="sort_icon"></button>
             <button>Wp</button>
         </div>
     </div>
-    <div class="lastDocsContainer">
-        <div class="docsCards">
-            <div class="docsCardsImg"><div class="cardsImg">M</div></div>
-            <div class="dCLapse">
-                <span>fileLabel</span>
-                <span class="timelapse">Data</span>
-                <button><img src="../../assets/option-icon.svg" alt="option_icon"></button>
-            </div>
-        </div>
-    </div>
+    <app-file-list>
+        <app-file-list-item fName="Mały plik"></app-file-list-item>
+    </app-file-list>
 </div>

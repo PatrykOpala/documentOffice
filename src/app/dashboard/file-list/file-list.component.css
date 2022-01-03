@@ -1,0 +1,11 @@
+.lastDocsContainer{
+    /* width: 511px*/
+    width: 700px;
+    margin-left: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 205px);
+    grid-template-rows: minmax(260px, auto);
+    gap: 14px;
+}

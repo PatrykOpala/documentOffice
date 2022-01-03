@@ -8,6 +8,9 @@ import { LoginComponent } from './login/login.component';
 import { EditorcontainerComponent } from './editorcontainer/editorcontainer.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { SearchBoxComponent } from './dashboard/search-box/search-box.component';
+import { FileListComponent } from './dashboard/file-list/file-list.component';
+import { FileListItemComponent } from './dashboard/file-list/file-list-item/file-list-item.component';
+import { ChooseFieldComponent } from './dashboard/choose-field/choose-field.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { SearchBoxComponent } from './dashboard/search-box/search-box.component'
     LoginComponent,
     EditorcontainerComponent,
     NavMenuComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
+    FileListComponent,
+    FileListItemComponent,
+    ChooseFieldComponent
   ],
   imports: [
     BrowserModule,
